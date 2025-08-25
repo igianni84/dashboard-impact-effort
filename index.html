@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact/Effort Analysis Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>🍷 Features Impact/Effort Dashboard</h1>
+            <p>Analisi interattiva delle features per la prioritizzazione</p>
+        </header>
+
+        <div class="dashboard-container">
+            <!-- Sidebar con controlli -->
+            <aside class="sidebar">
+                <div class="control-section">
+                    <h3>📊 Visualizzazione</h3>
+                    <div class="view-controls">
+                        <button id="show-matrix" class="active">Matrice</button>
+                        <button id="show-table">Tabella</button>
+                    </div>
+                </div>
+
+                <div class="control-section">
+                    <h3>🏷️ Macro Aree</h3>
+                    <div class="filter-group" id="area-filters">
+                        <!-- Generato dinamicamente -->
+                    </div>
+                </div>
+
+                <div class="control-section">
+                    <h3>⚙️ Pesi Scoring</h3>
+                    <div class="weight-controls">
+                        <div class="weight-input">
+                            <label for="impact-weight">Impact:</label>
+                            <input type="range" id="impact-weight" min="0" max="100" value="40">
+                            <span id="impact-weight-value">40%</span>
+                        </div>
+                        <div class="weight-input">
+                            <label for="effort-weight">Effort:</label>
+                            <input type="range" id="effort-weight" min="0" max="100" value="30">
+                            <span id="effort-weight-value">30%</span>
+                        </div>
+                        <div class="weight-input">
+                            <label for="preference-weight">Preferenze:</label>
+                            <input type="range" id="preference-weight" min="0" max="100" value="30">
+                            <span id="preference-weight-value">30%</span>
+                        </div>
+                        <div class="weight-total">
+                            Totale: <span id="weight-total">100%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-section">
+                    <h3>👥 Persone</h3>
+                    <div class="filter-group" id="person-filters">
+                        <!-- Generato dinamicamente -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Area principale -->
+            <main class="main-content">
+                <!-- Matrice Impact/Effort -->
+                <div id="matrix-view" class="view-content">
+                    <div class="chart-header">
+                        <h2>Matrice Impact/Effort</h2>
+                        <div class="chart-controls">
+                            <button id="scale-impact" class="scale-btn" title="Scala i valori di Impact per migliorare la distribuzione">📊 Scala Impact</button>
+                            <button id="scale-effort" class="scale-btn" title="Scala i valori di Effort per migliorare la distribuzione">📊 Scala Effort</button>
+                            <div class="chart-info">
+                                <span class="selected-count">Features selezionate: <span id="selected-count">0</span></span>
+                                <span class="total-count">Totale: <span id="total-count">0</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="impact-effort-matrix"></canvas>
+                    </div>
+                    <div class="matrix-legend">
+                        <div class="quadrant-info">
+                            <div class="quadrant high-impact low-effort clickable" data-quadrant="quick-wins">
+                                <strong>Quick Wins</strong><br>
+                                Alto Impact, Basso Effort
+                            </div>
+                            <div class="quadrant high-impact high-effort clickable" data-quadrant="major-projects">
+                                <strong>Major Projects</strong><br>
+                                Alto Impact, Alto Effort
+                            </div>
+                            <div class="quadrant low-impact low-effort clickable" data-quadrant="fill-ins">
+                                <strong>Fill-ins</strong><br>
+                                Basso Impact, Basso Effort
+                            </div>
+                            <div class="quadrant low-impact high-effort clickable" data-quadrant="thankless-tasks">
+                                <strong>Thankless Tasks</strong><br>
+                                Basso Impact, Alto Effort
+                            </div>
+                        </div>
+                        
+                        <!-- Tabella features del quadrante selezionato -->
+                        <div id="quadrant-features" class="quadrant-features-section" style="display: none;">
+                            <div class="quadrant-features-header">
+                                <h3 id="quadrant-title">Features del Quadrante</h3>
+                                <button id="close-quadrant-table" class="close-btn">✕</button>
+                            </div>
+                            <div class="quadrant-table-container">
+                                <table id="quadrant-features-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Feature</th>
+                                            <th>Macro Area</th>
+                                            <th>Impact</th>
+                                            <th>Effort</th>
+                                            <th>Score</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Generato dinamicamente -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabella Features -->
+                <div id="table-view" class="view-content" style="display: none;">
+                    <div class="table-header">
+                        <h2>Ranking Features</h2>
+                        <div class="table-controls">
+                            <select id="sort-by">
+                                <option value="score">Score</option>
+                                <option value="impact">Impact</option>
+                                <option value="effort">Effort</option>
+                                <option value="name">Nome</option>
+                            </select>
+                            <select id="sort-order">
+                                <option value="desc">Discendente</option>
+                                <option value="asc">Ascendente</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table id="features-table">
+                            <thead>
+                                <tr>
+                                    <th>Pos</th>
+                                    <th>Feature</th>
+                                    <th>Macro Area</th>
+                                    <th>Impact</th>
+                                    <th>Effort</th>
+                                    <th>Preferenze</th>
+                                    <th>Score</th>
+                                    <th>Persone</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Generato dinamicamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

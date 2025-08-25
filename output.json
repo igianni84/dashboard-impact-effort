@@ -1,0 +1,1520 @@
+[
+  {
+    "person_name": "Valentina",
+    "features": [
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Immersive & Gamified Discovery Hub",
+        "description": "A central exploration space that blends mood/moment-based navigation (26), gamified quizzes (22), AI sommelier pairing (27), immersive 3D catalogue (25), and category badges (42). Includes FOMO/popularity alerts (41) to encourage engagement. Functions as both the main discovery entry point and a reward-driven game-like experience.",
+        "selected": true,
+        "impact": 5,
+        "effort": 5
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Educational Content & Learning Journeys",
+        "description": "Integrates wine events & courses (24), post-purchase educational content (45), structured e-learning paths (37), subscription tasting programs (38), multimedia content hubs (39), serving & presentation guidelines (57), and themed investment learning (63) into progressive learning experiences. A mix of blog articles, video content, quick tips, and newsletters—covering wine basics, collecting, and industry insights—developed with sommeliers, journalists, and collectors.",
+        "selected": true,
+        "impact": 5,
+        "effort": 4
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Scan & Find – Phygital",
+        "description": "Users can photograph a wine label to instantly identify it and check availability on Crurated. If unavailable, they can activate alerts or discover similar wines; if available, they see the product page with provenance and purchase options. For Crurated bottles with a QR code, provenance details are integrated—accessible even without login.",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Comparison & Transparency Tools",
+        "description": "Combines side-by-side product comparisons (40), category badges for learning levels (42), popularity/FOMO alerts (41), and full cost/time transparency simulations (43) to support informed choices.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Themed Collections & Bundles",
+        "description": "Offers curated thematic bundles (44) and special occasion wine pages (26) for easy, story-driven wine selection.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Advisor",
+        "description": "Direct access to personal advisors (4) who provide curated lists/PDF reports (4), wishlist-driven recommendations (3, 7, 28), and collaborative gift selection flows (11, 31, 49) for both investment and occasion needs.",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Gifting Guidance",
+        "description": "Assist users in crafting the perfect wine gift by offering contextual suggestions, customizable certificates, packaging options, and even personalized videos. Possibility of recipient-choice gifting (31)",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "AI & Contextual Recommendation Engine",
+        "description": "Integrates AI sommelier pairing suggestions (27), mood-based onboarding quiz (22), homepage personalization (23) to deliver real-time, context-aware recommendations. “Right wine for this exact situation right now.”",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Notifications & Follow-Ups",
+        "description": "Unified alerts for wishlist/collection changes (3), cellar value fluctuations (10), producer releases (3), and tag-triggered reminders (30) in a single configurable system.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Wine strategist",
+        "description": "Compares potential purchases with the member’s current cellar (7), offers strategic recommendations for variety and investment (46, 47) — ensuring every acquisition is intentional and value-adding.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Producer-Verified Provenance Chain",
+        "description": "Enables full traceability starting at the producer/winemaker level — not just from the warehouse — by combining scan-based identification (1), producer-initiated provenance validation and NFT minting (2), and in-app provenance display (18).",
+        "selected": false,
+        "impact": 2,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Real-Time Storage & Condition Monitoring",
+        "description": "Integrates IoT-based environmental data from warehouses (13) with home cellar monitoring (71, 72) and alerts for potential issues, ensuring optimal storage across the wine’s life.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Official Certification & Documentation Suite",
+        "description": "Combines credibility badges on product pages (67), downloadable provenance certificates (69), and physical proof in packaging (54) to create visible, shareable authenticity proof for every bottle.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Immersive Provenance Storytelling",
+        "description": "Transforms provenance data into a rich, emotional narrative that brings each bottle’s journey to life. On interactive product pages (36), members can explore multimedia stories from vineyard to present — including winemaker interviews, harvest footage, and key journey milestones. At the consumption stage (20), scanning the bottle unlocks a personalized “from vine to glass” timeline, pairing suggestions, and behind-the-scenes content, making the wine’s history part of the drinking experience.",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Advanced Personal & Social Wishlists",
+        "description": "Dynamic lists combining personalized creation with notifications (3), cellar comparisons (7), influencer-style sharing (28), and advisor recommendations (4).",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Points & Rewards Loyalty Program",
+        "description": "Integrates luxury rewards for activity (32), wishlist sharing benefits (28), and wine reviews (32) into a multi-tier program that unlocks perks and events.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Community Collection Sharing & Inspiration",
+        "description": "Uses public wishlists (28), social sharing templates (35), and personal wine notebooks (55) to inspire discovery and generate engagement through the Crurated community.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Customizable 3D Digital Cellar",
+        "description": "Interactive cellar view with 3D visualization (9), personal comments on each bottle (30), and status notifications like ready to ship (30).",
+        "selected": true,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Cellar Performance Dashboard",
+        "description": "Integrates collection-wide performance tracking (10), advanced dashboard views (46), and “missing from my cellar” recommendations (47) to offer insights and actions in one place.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Bottle Notes & Memory Tagging (52)",
+        "description": "Allows members to add tasting notes, pairing ideas, drinking windows, event memories, or investment comments to any bottle in their collection. Notes can be private, shared with advisors, or made public for friends/community. Fully integrated with cellar dashboards, purchase history, and social sharing features.",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Collection Improvement & Learning Triggers",
+        "description": "Uses targeted cellar suggestions (47), cellar-status communications (48), and education-linked improvement prompts to encourage active enhancement of the collection.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Investment Dashboard with Leaderboard",
+        "description": "Combines bottle & cellar tracking (10, 46, 59), leaderboards in the community (73), ROI signals (68), and certification badges (67) for investment benchmarking.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Market Data & Integration Suite",
+        "description": "Integrates Liv-Ex account connection (60), Crurated EMP pricing (62), and investor-focused content/newsletters (61, 63) Merges ROI simulation (66) to bring professional market intelligence into Crurated.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Auto-Trading Tools",
+        "description": "Automatic purchase/sell rules (64, 68), and wallet integration for reinvestment (65) into a proactive trading assistant.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Liquidity & Risk Signaling",
+        "description": "Combines real-time liquidity signals (68), certification/risk badges (67) to inform members when to act to protect or grow value.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "Customizable Premium Shipping Options",
+        "description": "Flexible delivery modes with gift packaging (14), personalized wrapping (33), and quick scheduling for events (34). Adapts logistics based on destination (15), customs needs, climate considerations, or special venues like yachts/planes.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "End-to-End Shipment Tracking & Assurance",
+        "description": "Combines order tracking (50), transport insurance (16), and in-package temperature monitoring (14) for safety.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "At-Home Storage Continuity",
+        "description": "Connects at-home market tracker (71) with Crurated professional verification/instruction of a user home cellar (72) to maintain provenance and value insights even after delivery.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Interactive Consumption Guidance",
+        "description": "Combines local service suggestions like a sommelier in the area (19), serving/presentation guidelines (57), and bottle storytelling prompts/talking points (53, 56) to support members in creating memorable wine moments.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Social Tasting Experiences",
+        "description": "Integrates tasting room functionality for friends online (58), guest scanning with immersive content (36), and social sharing templates (35) into interactive events and posts.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Personal Wine Journal",
+        "description": "Combines wine notebook features (55), bottle scan & review (20, 21), and memory tagging for personal tracking (52) into a private, searchable archive of tasting history.",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      }
+    ]
+  },
+  {
+    "person_name": "Giovanni",
+    "features": [
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Immersive & Gamified Discovery Hub",
+        "description": "A central exploration space that blends mood/moment-based navigation (26), gamified quizzes (22), AI sommelier pairing (27), immersive 3D catalogue (25), and category badges (42). Includes FOMO/popularity alerts (41) to encourage engagement. Functions as both the main discovery entry point and a reward-driven game-like experience.",
+        "selected": false,
+        "impact": 2,
+        "effort": 3
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Educational Content & Learning Journeys",
+        "description": "Integrates wine events & courses (24), post-purchase educational content (45), structured e-learning paths (37), subscription tasting programs (38), multimedia content hubs (39), serving & presentation guidelines (57), and themed investment learning (63) into progressive learning experiences. A mix of blog articles, video content, quick tips, and newsletters—covering wine basics, collecting, and industry insights—developed with sommeliers, journalists, and collectors.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Scan & Find – Phygital",
+        "description": "Users can photograph a wine label to instantly identify it and check availability on Crurated. If unavailable, they can activate alerts or discover similar wines; if available, they see the product page with provenance and purchase options. For Crurated bottles with a QR code, provenance details are integrated—accessible even without login.",
+        "selected": true,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Comparison & Transparency Tools",
+        "description": "Combines side-by-side product comparisons (40), category badges for learning levels (42), popularity/FOMO alerts (41), and full cost/time transparency simulations (43) to support informed choices.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Themed Collections & Bundles",
+        "description": "Offers curated thematic bundles (44) and special occasion wine pages (26) for easy, story-driven wine selection.",
+        "selected": true,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Advisor",
+        "description": "Direct access to personal advisors (4) who provide curated lists/PDF reports (4), wishlist-driven recommendations (3, 7, 28), and collaborative gift selection flows (11, 31, 49) for both investment and occasion needs.",
+        "selected": false,
+        "impact": 1,
+        "effort": 4
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Gifting Guidance",
+        "description": "Assist users in crafting the perfect wine gift by offering contextual suggestions, customizable certificates, packaging options, and even personalized videos. Possibility of recipient-choice gifting (31)",
+        "selected": false,
+        "impact": 1,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "AI & Contextual Recommendation Engine",
+        "description": "Integrates AI sommelier pairing suggestions (27), mood-based onboarding quiz (22), homepage personalization (23) to deliver real-time, context-aware recommendations. “Right wine for this exact situation right now.”",
+        "selected": true,
+        "impact": 5,
+        "effort": 4
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Notifications & Follow-Ups",
+        "description": "Unified alerts for wishlist/collection changes (3), cellar value fluctuations (10), producer releases (3), and tag-triggered reminders (30) in a single configurable system.",
+        "selected": true,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Wine strategist",
+        "description": "Compares potential purchases with the member’s current cellar (7), offers strategic recommendations for variety and investment (46, 47) — ensuring every acquisition is intentional and value-adding.",
+        "selected": false,
+        "impact": 2,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Producer-Verified Provenance Chain",
+        "description": "Enables full traceability starting at the producer/winemaker level — not just from the warehouse — by combining scan-based identification (1), producer-initiated provenance validation and NFT minting (2), and in-app provenance display (18).",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Real-Time Storage & Condition Monitoring",
+        "description": "Integrates IoT-based environmental data from warehouses (13) with home cellar monitoring (71, 72) and alerts for potential issues, ensuring optimal storage across the wine’s life.",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Official Certification & Documentation Suite",
+        "description": "Combines credibility badges on product pages (67), downloadable provenance certificates (69), and physical proof in packaging (54) to create visible, shareable authenticity proof for every bottle.",
+        "selected": false,
+        "impact": 2,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Immersive Provenance Storytelling",
+        "description": "Transforms provenance data into a rich, emotional narrative that brings each bottle’s journey to life. On interactive product pages (36), members can explore multimedia stories from vineyard to present — including winemaker interviews, harvest footage, and key journey milestones. At the consumption stage (20), scanning the bottle unlocks a personalized “from vine to glass” timeline, pairing suggestions, and behind-the-scenes content, making the wine’s history part of the drinking experience.",
+        "selected": true,
+        "impact": 5,
+        "effort": 4
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Advanced Personal & Social Wishlists",
+        "description": "Dynamic lists combining personalized creation with notifications (3), cellar comparisons (7), influencer-style sharing (28), and advisor recommendations (4).",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Points & Rewards Loyalty Program",
+        "description": "Integrates luxury rewards for activity (32), wishlist sharing benefits (28), and wine reviews (32) into a multi-tier program that unlocks perks and events.",
+        "selected": true,
+        "impact": 4,
+        "effort": 5
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Community Collection Sharing & Inspiration",
+        "description": "Uses public wishlists (28), social sharing templates (35), and personal wine notebooks (55) to inspire discovery and generate engagement through the Crurated community.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Customizable 3D Digital Cellar",
+        "description": "Interactive cellar view with 3D visualization (9), personal comments on each bottle (30), and status notifications like ready to ship (30).",
+        "selected": false,
+        "impact": 1,
+        "effort": 2
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Cellar Performance Dashboard",
+        "description": "Integrates collection-wide performance tracking (10), advanced dashboard views (46), and “missing from my cellar” recommendations (47) to offer insights and actions in one place.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Bottle Notes & Memory Tagging (52)",
+        "description": "Allows members to add tasting notes, pairing ideas, drinking windows, event memories, or investment comments to any bottle in their collection. Notes can be private, shared with advisors, or made public for friends/community. Fully integrated with cellar dashboards, purchase history, and social sharing features.",
+        "selected": true,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Collection Improvement & Learning Triggers",
+        "description": "Uses targeted cellar suggestions (47), cellar-status communications (48), and education-linked improvement prompts to encourage active enhancement of the collection.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Investment Dashboard with Leaderboard",
+        "description": "Combines bottle & cellar tracking (10, 46, 59), leaderboards in the community (73), ROI signals (68), and certification badges (67) for investment benchmarking.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Market Data & Integration Suite",
+        "description": "Integrates Liv-Ex account connection (60), Crurated EMP pricing (62), and investor-focused content/newsletters (61, 63) Merges ROI simulation (66) to bring professional market intelligence into Crurated.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Auto-Trading Tools",
+        "description": "Automatic purchase/sell rules (64, 68), and wallet integration for reinvestment (65) into a proactive trading assistant.",
+        "selected": false,
+        "impact": 4,
+        "effort": 5
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Liquidity & Risk Signaling",
+        "description": "Combines real-time liquidity signals (68), certification/risk badges (67) to inform members when to act to protect or grow value.",
+        "selected": false,
+        "impact": 2,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "Customizable Premium Shipping Options",
+        "description": "Flexible delivery modes with gift packaging (14), personalized wrapping (33), and quick scheduling for events (34). Adapts logistics based on destination (15), customs needs, climate considerations, or special venues like yachts/planes.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "End-to-End Shipment Tracking & Assurance",
+        "description": "Combines order tracking (50), transport insurance (16), and in-package temperature monitoring (14) for safety.",
+        "selected": false,
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "At-Home Storage Continuity",
+        "description": "Connects at-home market tracker (71) with Crurated professional verification/instruction of a user home cellar (72) to maintain provenance and value insights even after delivery.",
+        "selected": false,
+        "impact": 2,
+        "effort": 4
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Interactive Consumption Guidance",
+        "description": "Combines local service suggestions like a sommelier in the area (19), serving/presentation guidelines (57), and bottle storytelling prompts/talking points (53, 56) to support members in creating memorable wine moments.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Social Tasting Experiences",
+        "description": "Integrates tasting room functionality for friends online (58), guest scanning with immersive content (36), and social sharing templates (35) into interactive events and posts.",
+        "selected": false,
+        "impact": 2,
+        "effort": 4
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Personal Wine Journal",
+        "description": "Combines wine notebook features (55), bottle scan & review (20, 21), and memory tagging for personal tracking (52) into a private, searchable archive of tasting history.",
+        "selected": false,
+        "impact": 4,
+        "effort": 5
+      }
+    ]
+  },
+  {
+    "person_name": "Chiara",
+    "features": [
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Immersive & Gamified Discovery Hub",
+        "description": "A central exploration space that blends mood/moment-based navigation (26), gamified quizzes (22), AI sommelier pairing (27), immersive 3D catalogue (25), and category badges (42). Includes FOMO/popularity alerts (41) to encourage engagement. Functions as both the main discovery entry point and a reward-driven game-like experience.",
+        "selected": false,
+        "impact": 3,
+        "effort": 5
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Educational Content & Learning Journeys",
+        "description": "Integrates wine events & courses (24), post-purchase educational content (45), structured e-learning paths (37), subscription tasting programs (38), multimedia content hubs (39), serving & presentation guidelines (57), and themed investment learning (63) into progressive learning experiences. A mix of blog articles, video content, quick tips, and newsletters—covering wine basics, collecting, and industry insights—developed with sommeliers, journalists, and collectors.",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Scan & Find – Phygital",
+        "description": "Users can photograph a wine label to instantly identify it and check availability on Crurated. If unavailable, they can activate alerts or discover similar wines; if available, they see the product page with provenance and purchase options. For Crurated bottles with a QR code, provenance details are integrated—accessible even without login.",
+        "selected": true,
+        "impact": 5,
+        "effort": 2
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Comparison & Transparency Tools",
+        "description": "Combines side-by-side product comparisons (40), category badges for learning levels (42), popularity/FOMO alerts (41), and full cost/time transparency simulations (43) to support informed choices.",
+        "selected": true,
+        "impact": 5,
+        "effort": 2
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Themed Collections & Bundles",
+        "description": "Offers curated thematic bundles (44) and special occasion wine pages (26) for easy, story-driven wine selection.",
+        "selected": false,
+        "impact": 4,
+        "effort": 1
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Advisor",
+        "description": "Direct access to personal advisors (4) who provide curated lists/PDF reports (4), wishlist-driven recommendations (3, 7, 28), and collaborative gift selection flows (11, 31, 49) for both investment and occasion needs.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Gifting Guidance",
+        "description": "Assist users in crafting the perfect wine gift by offering contextual suggestions, customizable certificates, packaging options, and even personalized videos. Possibility of recipient-choice gifting (31)",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "AI & Contextual Recommendation Engine",
+        "description": "Integrates AI sommelier pairing suggestions (27), mood-based onboarding quiz (22), homepage personalization (23) to deliver real-time, context-aware recommendations. “Right wine for this exact situation right now.”",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Notifications & Follow-Ups",
+        "description": "Unified alerts for wishlist/collection changes (3), cellar value fluctuations (10), producer releases (3), and tag-triggered reminders (30) in a single configurable system.",
+        "selected": false,
+        "impact": 4,
+        "effort": 1
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Wine strategist",
+        "description": "Compares potential purchases with the member’s current cellar (7), offers strategic recommendations for variety and investment (46, 47) — ensuring every acquisition is intentional and value-adding.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Producer-Verified Provenance Chain",
+        "description": "Enables full traceability starting at the producer/winemaker level — not just from the warehouse — by combining scan-based identification (1), producer-initiated provenance validation and NFT minting (2), and in-app provenance display (18).",
+        "selected": false,
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Real-Time Storage & Condition Monitoring",
+        "description": "Integrates IoT-based environmental data from warehouses (13) with home cellar monitoring (71, 72) and alerts for potential issues, ensuring optimal storage across the wine’s life.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Official Certification & Documentation Suite",
+        "description": "Combines credibility badges on product pages (67), downloadable provenance certificates (69), and physical proof in packaging (54) to create visible, shareable authenticity proof for every bottle.",
+        "selected": false,
+        "impact": 4,
+        "effort": 1
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Immersive Provenance Storytelling",
+        "description": "Transforms provenance data into a rich, emotional narrative that brings each bottle’s journey to life. On interactive product pages (36), members can explore multimedia stories from vineyard to present — including winemaker interviews, harvest footage, and key journey milestones. At the consumption stage (20), scanning the bottle unlocks a personalized “from vine to glass” timeline, pairing suggestions, and behind-the-scenes content, making the wine’s history part of the drinking experience.",
+        "selected": true,
+        "impact": 3,
+        "effort": 5
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Advanced Personal & Social Wishlists",
+        "description": "Dynamic lists combining personalized creation with notifications (3), cellar comparisons (7), influencer-style sharing (28), and advisor recommendations (4).",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Points & Rewards Loyalty Program",
+        "description": "Integrates luxury rewards for activity (32), wishlist sharing benefits (28), and wine reviews (32) into a multi-tier program that unlocks perks and events.",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Community Collection Sharing & Inspiration",
+        "description": "Uses public wishlists (28), social sharing templates (35), and personal wine notebooks (55) to inspire discovery and generate engagement through the Crurated community.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Customizable 3D Digital Cellar",
+        "description": "Interactive cellar view with 3D visualization (9), personal comments on each bottle (30), and status notifications like ready to ship (30).",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Cellar Performance Dashboard",
+        "description": "Integrates collection-wide performance tracking (10), advanced dashboard views (46), and “missing from my cellar” recommendations (47) to offer insights and actions in one place.",
+        "selected": false,
+        "impact": 5,
+        "effort": 2
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Bottle Notes & Memory Tagging (52)",
+        "description": "Allows members to add tasting notes, pairing ideas, drinking windows, event memories, or investment comments to any bottle in their collection. Notes can be private, shared with advisors, or made public for friends/community. Fully integrated with cellar dashboards, purchase history, and social sharing features.",
+        "selected": true,
+        "impact": 5,
+        "effort": 2
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Collection Improvement & Learning Triggers",
+        "description": "Uses targeted cellar suggestions (47), cellar-status communications (48), and education-linked improvement prompts to encourage active enhancement of the collection.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Investment Dashboard with Leaderboard",
+        "description": "Combines bottle & cellar tracking (10, 46, 59), leaderboards in the community (73), ROI signals (68), and certification badges (67) for investment benchmarking.",
+        "selected": false,
+        "impact": 5,
+        "effort": 2
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Market Data & Integration Suite",
+        "description": "Integrates Liv-Ex account connection (60), Crurated EMP pricing (62), and investor-focused content/newsletters (61, 63) Merges ROI simulation (66) to bring professional market intelligence into Crurated.",
+        "selected": false,
+        "impact": 5,
+        "effort": 2
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Auto-Trading Tools",
+        "description": "Automatic purchase/sell rules (64, 68), and wallet integration for reinvestment (65) into a proactive trading assistant.",
+        "selected": false,
+        "impact": 5,
+        "effort": 2
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Liquidity & Risk Signaling",
+        "description": "Combines real-time liquidity signals (68), certification/risk badges (67) to inform members when to act to protect or grow value.",
+        "selected": false,
+        "impact": 3,
+        "effort": 1
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "Customizable Premium Shipping Options",
+        "description": "Flexible delivery modes with gift packaging (14), personalized wrapping (33), and quick scheduling for events (34). Adapts logistics based on destination (15), customs needs, climate considerations, or special venues like yachts/planes.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "End-to-End Shipment Tracking & Assurance",
+        "description": "Combines order tracking (50), transport insurance (16), and in-package temperature monitoring (14) for safety.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "At-Home Storage Continuity",
+        "description": "Connects at-home market tracker (71) with Crurated professional verification/instruction of a user home cellar (72) to maintain provenance and value insights even after delivery.",
+        "selected": false,
+        "impact": 2,
+        "effort": 2
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Interactive Consumption Guidance",
+        "description": "Combines local service suggestions like a sommelier in the area (19), serving/presentation guidelines (57), and bottle storytelling prompts/talking points (53, 56) to support members in creating memorable wine moments.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Social Tasting Experiences",
+        "description": "Integrates tasting room functionality for friends online (58), guest scanning with immersive content (36), and social sharing templates (35) into interactive events and posts.",
+        "selected": false,
+        "impact": 4,
+        "effort": 1
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Personal Wine Journal",
+        "description": "Combines wine notebook features (55), bottle scan & review (20, 21), and memory tagging for personal tracking (52) into a private, searchable archive of tasting history.",
+        "selected": false,
+        "impact": 5,
+        "effort": 2
+      }
+    ]
+  },
+  {
+    "person_name": "Paolo",
+    "features": [
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Immersive & Gamified Discovery Hub",
+        "description": "A central exploration space that blends mood/moment-based navigation (26), gamified quizzes (22), AI sommelier pairing (27), immersive 3D catalogue (25), and category badges (42). Includes FOMO/popularity alerts (41) to encourage engagement. Functions as both the main discovery entry point and a reward-driven game-like experience.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Educational Content & Learning Journeys",
+        "description": "Integrates wine events & courses (24), post-purchase educational content (45), structured e-learning paths (37), subscription tasting programs (38), multimedia content hubs (39), serving & presentation guidelines (57), and themed investment learning (63) into progressive learning experiences. A mix of blog articles, video content, quick tips, and newsletters—covering wine basics, collecting, and industry insights—developed with sommeliers, journalists, and collectors.",
+        "selected": false,
+        "impact": 5,
+        "effort": 4
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Scan & Find – Phygital",
+        "description": "Users can photograph a wine label to instantly identify it and check availability on Crurated. If unavailable, they can activate alerts or discover similar wines; if available, they see the product page with provenance and purchase options. For Crurated bottles with a QR code, provenance details are integrated—accessible even without login.",
+        "selected": false,
+        "impact": 2,
+        "effort": 4
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Comparison & Transparency Tools",
+        "description": "Combines side-by-side product comparisons (40), category badges for learning levels (42), popularity/FOMO alerts (41), and full cost/time transparency simulations (43) to support informed choices.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Themed Collections & Bundles",
+        "description": "Offers curated thematic bundles (44) and special occasion wine pages (26) for easy, story-driven wine selection.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Advisor",
+        "description": "Direct access to personal advisors (4) who provide curated lists/PDF reports (4), wishlist-driven recommendations (3, 7, 28), and collaborative gift selection flows (11, 31, 49) for both investment and occasion needs.",
+        "selected": false,
+        "impact": 4,
+        "effort": 5
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Gifting Guidance",
+        "description": "Assist users in crafting the perfect wine gift by offering contextual suggestions, customizable certificates, packaging options, and even personalized videos. Possibility of recipient-choice gifting (31)",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "AI & Contextual Recommendation Engine",
+        "description": "Integrates AI sommelier pairing suggestions (27), mood-based onboarding quiz (22), homepage personalization (23) to deliver real-time, context-aware recommendations. “Right wine for this exact situation right now.”",
+        "selected": false,
+        "impact": 4,
+        "effort": 5
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Notifications & Follow-Ups",
+        "description": "Unified alerts for wishlist/collection changes (3), cellar value fluctuations (10), producer releases (3), and tag-triggered reminders (30) in a single configurable system.",
+        "selected": false,
+        "impact": 2,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Wine strategist",
+        "description": "Compares potential purchases with the member’s current cellar (7), offers strategic recommendations for variety and investment (46, 47) — ensuring every acquisition is intentional and value-adding.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Producer-Verified Provenance Chain",
+        "description": "Enables full traceability starting at the producer/winemaker level — not just from the warehouse — by combining scan-based identification (1), producer-initiated provenance validation and NFT minting (2), and in-app provenance display (18).",
+        "selected": true,
+        "impact": 4,
+        "effort": 5
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Real-Time Storage & Condition Monitoring",
+        "description": "Integrates IoT-based environmental data from warehouses (13) with home cellar monitoring (71, 72) and alerts for potential issues, ensuring optimal storage across the wine’s life.",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Official Certification & Documentation Suite",
+        "description": "Combines credibility badges on product pages (67), downloadable provenance certificates (69), and physical proof in packaging (54) to create visible, shareable authenticity proof for every bottle.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Immersive Provenance Storytelling",
+        "description": "Transforms provenance data into a rich, emotional narrative that brings each bottle’s journey to life. On interactive product pages (36), members can explore multimedia stories from vineyard to present — including winemaker interviews, harvest footage, and key journey milestones. At the consumption stage (20), scanning the bottle unlocks a personalized “from vine to glass” timeline, pairing suggestions, and behind-the-scenes content, making the wine’s history part of the drinking experience.",
+        "selected": true,
+        "impact": 5,
+        "effort": 2
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Advanced Personal & Social Wishlists",
+        "description": "Dynamic lists combining personalized creation with notifications (3), cellar comparisons (7), influencer-style sharing (28), and advisor recommendations (4).",
+        "selected": true,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Points & Rewards Loyalty Program",
+        "description": "Integrates luxury rewards for activity (32), wishlist sharing benefits (28), and wine reviews (32) into a multi-tier program that unlocks perks and events.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Community Collection Sharing & Inspiration",
+        "description": "Uses public wishlists (28), social sharing templates (35), and personal wine notebooks (55) to inspire discovery and generate engagement through the Crurated community.",
+        "selected": false,
+        "impact": 2,
+        "effort": 2
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Customizable 3D Digital Cellar",
+        "description": "Interactive cellar view with 3D visualization (9), personal comments on each bottle (30), and status notifications like ready to ship (30).",
+        "selected": true,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Cellar Performance Dashboard",
+        "description": "Integrates collection-wide performance tracking (10), advanced dashboard views (46), and “missing from my cellar” recommendations (47) to offer insights and actions in one place.",
+        "selected": false,
+        "impact": 2,
+        "effort": 1
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Bottle Notes & Memory Tagging (52)",
+        "description": "Allows members to add tasting notes, pairing ideas, drinking windows, event memories, or investment comments to any bottle in their collection. Notes can be private, shared with advisors, or made public for friends/community. Fully integrated with cellar dashboards, purchase history, and social sharing features.",
+        "selected": true,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Collection Improvement & Learning Triggers",
+        "description": "Uses targeted cellar suggestions (47), cellar-status communications (48), and education-linked improvement prompts to encourage active enhancement of the collection.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Investment Dashboard with Leaderboard",
+        "description": "Combines bottle & cellar tracking (10, 46, 59), leaderboards in the community (73), ROI signals (68), and certification badges (67) for investment benchmarking.",
+        "selected": false,
+        "impact": 2,
+        "effort": 4
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Market Data & Integration Suite",
+        "description": "Integrates Liv-Ex account connection (60), Crurated EMP pricing (62), and investor-focused content/newsletters (61, 63) Merges ROI simulation (66) to bring professional market intelligence into Crurated.",
+        "selected": false,
+        "impact": 2,
+        "effort": 4
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Auto-Trading Tools",
+        "description": "Automatic purchase/sell rules (64, 68), and wallet integration for reinvestment (65) into a proactive trading assistant.",
+        "selected": false,
+        "impact": 2,
+        "effort": 3
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Liquidity & Risk Signaling",
+        "description": "Combines real-time liquidity signals (68), certification/risk badges (67) to inform members when to act to protect or grow value.",
+        "selected": false,
+        "impact": 2,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "Customizable Premium Shipping Options",
+        "description": "Flexible delivery modes with gift packaging (14), personalized wrapping (33), and quick scheduling for events (34). Adapts logistics based on destination (15), customs needs, climate considerations, or special venues like yachts/planes.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "End-to-End Shipment Tracking & Assurance",
+        "description": "Combines order tracking (50), transport insurance (16), and in-package temperature monitoring (14) for safety.",
+        "selected": false,
+        "impact": 2,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "At-Home Storage Continuity",
+        "description": "Connects at-home market tracker (71) with Crurated professional verification/instruction of a user home cellar (72) to maintain provenance and value insights even after delivery.",
+        "selected": false,
+        "impact": 3,
+        "effort": 5
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Interactive Consumption Guidance",
+        "description": "Combines local service suggestions like a sommelier in the area (19), serving/presentation guidelines (57), and bottle storytelling prompts/talking points (53, 56) to support members in creating memorable wine moments.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Social Tasting Experiences",
+        "description": "Integrates tasting room functionality for friends online (58), guest scanning with immersive content (36), and social sharing templates (35) into interactive events and posts.",
+        "selected": true,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Personal Wine Journal",
+        "description": "Combines wine notebook features (55), bottle scan & review (20, 21), and memory tagging for personal tracking (52) into a private, searchable archive of tasting history.",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      }
+    ]
+  },
+  {
+    "person_name": "Alessandro",
+    "features": [
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Immersive & Gamified Discovery Hub",
+        "description": "A central exploration space that blends mood/moment-based navigation (26), gamified quizzes (22), AI sommelier pairing (27), immersive 3D catalogue (25), and category badges (42). Includes FOMO/popularity alerts (41) to encourage engagement. Functions as both the main discovery entry point and a reward-driven game-like experience.",
+        "selected": false,
+        "impact": 2,
+        "effort": 4
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Educational Content & Learning Journeys",
+        "description": "Integrates wine events & courses (24), post-purchase educational content (45), structured e-learning paths (37), subscription tasting programs (38), multimedia content hubs (39), serving & presentation guidelines (57), and themed investment learning (63) into progressive learning experiences. A mix of blog articles, video content, quick tips, and newsletters—covering wine basics, collecting, and industry insights—developed with sommeliers, journalists, and collectors.",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Scan & Find – Phygital",
+        "description": "Users can photograph a wine label to instantly identify it and check availability on Crurated. If unavailable, they can activate alerts or discover similar wines; if available, they see the product page with provenance and purchase options. For Crurated bottles with a QR code, provenance details are integrated—accessible even without login.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Comparison & Transparency Tools",
+        "description": "Combines side-by-side product comparisons (40), category badges for learning levels (42), popularity/FOMO alerts (41), and full cost/time transparency simulations (43) to support informed choices.",
+        "selected": false,
+        "impact": 2,
+        "effort": 3
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Themed Collections & Bundles",
+        "description": "Offers curated thematic bundles (44) and special occasion wine pages (26) for easy, story-driven wine selection.",
+        "selected": true,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Advisor",
+        "description": "Direct access to personal advisors (4) who provide curated lists/PDF reports (4), wishlist-driven recommendations (3, 7, 28), and collaborative gift selection flows (11, 31, 49) for both investment and occasion needs.",
+        "selected": false,
+        "impact": 1,
+        "effort": 4
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Gifting Guidance",
+        "description": "Assist users in crafting the perfect wine gift by offering contextual suggestions, customizable certificates, packaging options, and even personalized videos. Possibility of recipient-choice gifting (31)",
+        "selected": false,
+        "impact": 1,
+        "effort": 4
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "AI & Contextual Recommendation Engine",
+        "description": "Integrates AI sommelier pairing suggestions (27), mood-based onboarding quiz (22), homepage personalization (23) to deliver real-time, context-aware recommendations. “Right wine for this exact situation right now.”",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Notifications & Follow-Ups",
+        "description": "Unified alerts for wishlist/collection changes (3), cellar value fluctuations (10), producer releases (3), and tag-triggered reminders (30) in a single configurable system.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Wine strategist",
+        "description": "Compares potential purchases with the member’s current cellar (7), offers strategic recommendations for variety and investment (46, 47) — ensuring every acquisition is intentional and value-adding.",
+        "selected": false,
+        "impact": 2,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Producer-Verified Provenance Chain",
+        "description": "Enables full traceability starting at the producer/winemaker level — not just from the warehouse — by combining scan-based identification (1), producer-initiated provenance validation and NFT minting (2), and in-app provenance display (18).",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Real-Time Storage & Condition Monitoring",
+        "description": "Integrates IoT-based environmental data from warehouses (13) with home cellar monitoring (71, 72) and alerts for potential issues, ensuring optimal storage across the wine’s life.",
+        "selected": true,
+        "impact": 5,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Official Certification & Documentation Suite",
+        "description": "Combines credibility badges on product pages (67), downloadable provenance certificates (69), and physical proof in packaging (54) to create visible, shareable authenticity proof for every bottle.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Immersive Provenance Storytelling",
+        "description": "Transforms provenance data into a rich, emotional narrative that brings each bottle’s journey to life. On interactive product pages (36), members can explore multimedia stories from vineyard to present — including winemaker interviews, harvest footage, and key journey milestones. At the consumption stage (20), scanning the bottle unlocks a personalized “from vine to glass” timeline, pairing suggestions, and behind-the-scenes content, making the wine’s history part of the drinking experience.",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Advanced Personal & Social Wishlists",
+        "description": "Dynamic lists combining personalized creation with notifications (3), cellar comparisons (7), influencer-style sharing (28), and advisor recommendations (4).",
+        "selected": false,
+        "impact": 2,
+        "effort": 2
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Points & Rewards Loyalty Program",
+        "description": "Integrates luxury rewards for activity (32), wishlist sharing benefits (28), and wine reviews (32) into a multi-tier program that unlocks perks and events.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Community Collection Sharing & Inspiration",
+        "description": "Uses public wishlists (28), social sharing templates (35), and personal wine notebooks (55) to inspire discovery and generate engagement through the Crurated community.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Customizable 3D Digital Cellar",
+        "description": "Interactive cellar view with 3D visualization (9), personal comments on each bottle (30), and status notifications like ready to ship (30).",
+        "selected": false,
+        "impact": 2,
+        "effort": 1
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Cellar Performance Dashboard",
+        "description": "Integrates collection-wide performance tracking (10), advanced dashboard views (46), and “missing from my cellar” recommendations (47) to offer insights and actions in one place.",
+        "selected": false,
+        "impact": 2,
+        "effort": 3
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Bottle Notes & Memory Tagging (52)",
+        "description": "Allows members to add tasting notes, pairing ideas, drinking windows, event memories, or investment comments to any bottle in their collection. Notes can be private, shared with advisors, or made public for friends/community. Fully integrated with cellar dashboards, purchase history, and social sharing features.",
+        "selected": true,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Collection Improvement & Learning Triggers",
+        "description": "Uses targeted cellar suggestions (47), cellar-status communications (48), and education-linked improvement prompts to encourage active enhancement of the collection.",
+        "selected": false,
+        "impact": 1,
+        "effort": 3
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Investment Dashboard with Leaderboard",
+        "description": "Combines bottle & cellar tracking (10, 46, 59), leaderboards in the community (73), ROI signals (68), and certification badges (67) for investment benchmarking.",
+        "selected": false,
+        "impact": 2,
+        "effort": 2
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Market Data & Integration Suite",
+        "description": "Integrates Liv-Ex account connection (60), Crurated EMP pricing (62), and investor-focused content/newsletters (61, 63) Merges ROI simulation (66) to bring professional market intelligence into Crurated.",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Auto-Trading Tools",
+        "description": "Automatic purchase/sell rules (64, 68), and wallet integration for reinvestment (65) into a proactive trading assistant.",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Liquidity & Risk Signaling",
+        "description": "Combines real-time liquidity signals (68), certification/risk badges (67) to inform members when to act to protect or grow value.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "Customizable Premium Shipping Options",
+        "description": "Flexible delivery modes with gift packaging (14), personalized wrapping (33), and quick scheduling for events (34). Adapts logistics based on destination (15), customs needs, climate considerations, or special venues like yachts/planes.",
+        "selected": false,
+        "impact": 2,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "End-to-End Shipment Tracking & Assurance",
+        "description": "Combines order tracking (50), transport insurance (16), and in-package temperature monitoring (14) for safety.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "At-Home Storage Continuity",
+        "description": "Connects at-home market tracker (71) with Crurated professional verification/instruction of a user home cellar (72) to maintain provenance and value insights even after delivery.",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Interactive Consumption Guidance",
+        "description": "Combines local service suggestions like a sommelier in the area (19), serving/presentation guidelines (57), and bottle storytelling prompts/talking points (53, 56) to support members in creating memorable wine moments.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Social Tasting Experiences",
+        "description": "Integrates tasting room functionality for friends online (58), guest scanning with immersive content (36), and social sharing templates (35) into interactive events and posts.",
+        "selected": false,
+        "impact": 1,
+        "effort": 3
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Personal Wine Journal",
+        "description": "Combines wine notebook features (55), bottle scan & review (20, 21), and memory tagging for personal tracking (52) into a private, searchable archive of tasting history.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      }
+    ]
+  },
+  {
+    "person_name": "Stefania",
+    "features": [
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Immersive & Gamified Discovery Hub",
+        "description": "A central exploration space that blends mood/moment-based navigation (26), gamified quizzes (22), AI sommelier pairing (27), immersive 3D catalogue (25), and category badges (42). Includes FOMO/popularity alerts (41) to encourage engagement. Functions as both the main discovery entry point and a reward-driven game-like experience.",
+        "selected": false,
+        "impact": 4,
+        "effort": 5
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Educational Content & Learning Journeys",
+        "description": "Integrates wine events & courses (24), post-purchase educational content (45), structured e-learning paths (37), subscription tasting programs (38), multimedia content hubs (39), serving & presentation guidelines (57), and themed investment learning (63) into progressive learning experiences. A mix of blog articles, video content, quick tips, and newsletters—covering wine basics, collecting, and industry insights—developed with sommeliers, journalists, and collectors.",
+        "selected": true,
+        "impact": 5,
+        "effort": 5
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Scan & Find – Phygital",
+        "description": "Users can photograph a wine label to instantly identify it and check availability on Crurated. If unavailable, they can activate alerts or discover similar wines; if available, they see the product page with provenance and purchase options. For Crurated bottles with a QR code, provenance details are integrated—accessible even without login.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Comparison & Transparency Tools",
+        "description": "Combines side-by-side product comparisons (40), category badges for learning levels (42), popularity/FOMO alerts (41), and full cost/time transparency simulations (43) to support informed choices.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Discovery & Education",
+        "feature_name": "Themed Collections & Bundles",
+        "description": "Offers curated thematic bundles (44) and special occasion wine pages (26) for easy, story-driven wine selection.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Advisor",
+        "description": "Direct access to personal advisors (4) who provide curated lists/PDF reports (4), wishlist-driven recommendations (3, 7, 28), and collaborative gift selection flows (11, 31, 49) for both investment and occasion needs.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Gifting Guidance",
+        "description": "Assist users in crafting the perfect wine gift by offering contextual suggestions, customizable certificates, packaging options, and even personalized videos. Possibility of recipient-choice gifting (31)",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "AI & Contextual Recommendation Engine",
+        "description": "Integrates AI sommelier pairing suggestions (27), mood-based onboarding quiz (22), homepage personalization (23) to deliver real-time, context-aware recommendations. “Right wine for this exact situation right now.”",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Smart Notifications & Follow-Ups",
+        "description": "Unified alerts for wishlist/collection changes (3), cellar value fluctuations (10), producer releases (3), and tag-triggered reminders (30) in a single configurable system.",
+        "selected": false,
+        "impact": 4,
+        "effort": 2
+      },
+      {
+        "macro_area": "Personalization & Advisory",
+        "feature_name": "Personal Wine strategist",
+        "description": "Compares potential purchases with the member’s current cellar (7), offers strategic recommendations for variety and investment (46, 47) — ensuring every acquisition is intentional and value-adding.",
+        "selected": false,
+        "impact": 5,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Producer-Verified Provenance Chain",
+        "description": "Enables full traceability starting at the producer/winemaker level — not just from the warehouse — by combining scan-based identification (1), producer-initiated provenance validation and NFT minting (2), and in-app provenance display (18).",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Real-Time Storage & Condition Monitoring",
+        "description": "Integrates IoT-based environmental data from warehouses (13) with home cellar monitoring (71, 72) and alerts for potential issues, ensuring optimal storage across the wine’s life.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Official Certification & Documentation Suite",
+        "description": "Combines credibility badges on product pages (67), downloadable provenance certificates (69), and physical proof in packaging (54) to create visible, shareable authenticity proof for every bottle.",
+        "selected": false,
+        "impact": 3,
+        "effort": 2
+      },
+      {
+        "macro_area": "\"Provenance, Certification & Trust\"",
+        "feature_name": "Immersive Provenance Storytelling",
+        "description": "Transforms provenance data into a rich, emotional narrative that brings each bottle’s journey to life. On interactive product pages (36), members can explore multimedia stories from vineyard to present — including winemaker interviews, harvest footage, and key journey milestones. At the consumption stage (20), scanning the bottle unlocks a personalized “from vine to glass” timeline, pairing suggestions, and behind-the-scenes content, making the wine’s history part of the drinking experience.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Advanced Personal & Social Wishlists",
+        "description": "Dynamic lists combining personalized creation with notifications (3), cellar comparisons (7), influencer-style sharing (28), and advisor recommendations (4).",
+        "selected": true,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Points & Rewards Loyalty Program",
+        "description": "Integrates luxury rewards for activity (32), wishlist sharing benefits (28), and wine reviews (32) into a multi-tier program that unlocks perks and events.",
+        "selected": true,
+        "impact": 5,
+        "effort": 4
+      },
+      {
+        "macro_area": "Gamification & Social Sharing",
+        "feature_name": "Community Collection Sharing & Inspiration",
+        "description": "Uses public wishlists (28), social sharing templates (35), and personal wine notebooks (55) to inspire discovery and generate engagement through the Crurated community.",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Customizable 3D Digital Cellar",
+        "description": "Interactive cellar view with 3D visualization (9), personal comments on each bottle (30), and status notifications like ready to ship (30).",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Cellar Performance Dashboard",
+        "description": "Integrates collection-wide performance tracking (10), advanced dashboard views (46), and “missing from my cellar” recommendations (47) to offer insights and actions in one place.",
+        "selected": true,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Bottle Notes & Memory Tagging (52)",
+        "description": "Allows members to add tasting notes, pairing ideas, drinking windows, event memories, or investment comments to any bottle in their collection. Notes can be private, shared with advisors, or made public for friends/community. Fully integrated with cellar dashboards, purchase history, and social sharing features.",
+        "selected": false,
+        "impact": 3,
+        "effort": 3
+      },
+      {
+        "macro_area": "Digital Cellar & Collection Management",
+        "feature_name": "Collection Improvement & Learning Triggers",
+        "description": "Uses targeted cellar suggestions (47), cellar-status communications (48), and education-linked improvement prompts to encourage active enhancement of the collection.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Investment Dashboard with Leaderboard",
+        "description": "Combines bottle & cellar tracking (10, 46, 59), leaderboards in the community (73), ROI signals (68), and certification badges (67) for investment benchmarking.",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Market Data & Integration Suite",
+        "description": "Integrates Liv-Ex account connection (60), Crurated EMP pricing (62), and investor-focused content/newsletters (61, 63) Merges ROI simulation (66) to bring professional market intelligence into Crurated.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Auto-Trading Tools",
+        "description": "Automatic purchase/sell rules (64, 68), and wallet integration for reinvestment (65) into a proactive trading assistant.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "Wine Investment & Financial Tools",
+        "feature_name": "Liquidity & Risk Signaling",
+        "description": "Combines real-time liquidity signals (68), certification/risk badges (67) to inform members when to act to protect or grow value.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "Customizable Premium Shipping Options",
+        "description": "Flexible delivery modes with gift packaging (14), personalized wrapping (33), and quick scheduling for events (34). Adapts logistics based on destination (15), customs needs, climate considerations, or special venues like yachts/planes.",
+        "selected": true,
+        "impact": 5,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "End-to-End Shipment Tracking & Assurance",
+        "description": "Combines order tracking (50), transport insurance (16), and in-package temperature monitoring (14) for safety.",
+        "selected": false,
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "macro_area": "\"Logistics, Delivery & Post-Purchase Care\"",
+        "feature_name": "At-Home Storage Continuity",
+        "description": "Connects at-home market tracker (71) with Crurated professional verification/instruction of a user home cellar (72) to maintain provenance and value insights even after delivery.",
+        "selected": false,
+        "impact": 3,
+        "effort": 4
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Interactive Consumption Guidance",
+        "description": "Combines local service suggestions like a sommelier in the area (19), serving/presentation guidelines (57), and bottle storytelling prompts/talking points (53, 56) to support members in creating memorable wine moments.",
+        "selected": true,
+        "impact": 5,
+        "effort": 4
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Social Tasting Experiences",
+        "description": "Integrates tasting room functionality for friends online (58), guest scanning with immersive content (36), and social sharing templates (35) into interactive events and posts.",
+        "selected": false,
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "macro_area": "Consumption Support & Experience",
+        "feature_name": "Personal Wine Journal",
+        "description": "Combines wine notebook features (55), bottle scan & review (20, 21), and memory tagging for personal tracking (52) into a private, searchable archive of tasting history.",
+        "selected": true,
+        "impact": 5,
+        "effort": 3
+      }
+    ]
+  }
+]
