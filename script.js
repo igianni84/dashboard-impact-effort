@@ -362,12 +362,18 @@ class ImpactEffortDashboard {
         scaledFeatures = this.scaleEffortValues(scaledFeatures);
         
         // Prepara dati per Chart.js
-        const chartData = scaledFeatures.map(feature => ({
-            x: feature.avgEffort,
-            y: feature.avgImpact,
-            feature: feature,
-            score: this.calculateScore(feature)
-        }));
+        const chartData = scaledFeatures.map(feature => {
+            // Applica un piccolo offset casuale per evitare la sovrapposizione perfetta
+            const jitterX = (Math.random() - 0.5) * 0.2; // Jitter between -0.1 and +0.1
+            const jitterY = (Math.random() - 0.5) * 0.2; // Jitter between -0.1 and +0.1
+            
+            return {
+                x: feature.avgEffort + jitterX,
+                y: feature.avgImpact + jitterY,
+                feature: feature,
+                score: this.calculateScore(feature)
+            };
+        });
 
         this.chart = new Chart(ctx, {
             type: 'scatter',
