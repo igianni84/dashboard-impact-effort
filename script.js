@@ -162,14 +162,35 @@ class ImpactEffortDashboard {
             // Filtra per macro area
             if (!this.filters.macroAreas.has(feature.macro_area)) return false;
             
-            // Filtra per persone (almeno una persona selezionata deve aver valutato questa feature)
-            const hasSelectedPerson = feature.people.some(p => this.filters.people.has(p.name));
-            if (!hasSelectedPerson) return false;
-            
             // Filtra per feature
             if (!this.filters.features.has(feature.name)) return false;
             
+            // Verifica che almeno una delle persone selezionate abbia valutato questa feature
+            const hasSelectedPersonEvaluation = feature.evaluations.some(evaluation => 
+                this.filters.people.has(evaluation.person)
+            );
+            
+            // Se nessuna persona selezionata ha valutato questa feature, escludila
+            if (!hasSelectedPersonEvaluation) return false;
+            
             return true;
+        }).map(feature => {
+            // Ricalcola le medie considerando solo le persone selezionate
+            const selectedEvaluations = feature.evaluations.filter(evaluation => 
+                this.filters.people.has(evaluation.person)
+            );
+            
+            const selectedImpacts = selectedEvaluations.map(e => e.impact);
+            const selectedEfforts = selectedEvaluations.map(e => e.effort);
+            const selectedCount = selectedEvaluations.filter(e => e.selected).length;
+            
+            return {
+                ...feature,
+                avgImpact: selectedImpacts.reduce((a, b) => a + b, 0) / selectedImpacts.length,
+                avgEffort: selectedEfforts.reduce((a, b) => a + b, 0) / selectedEfforts.length,
+                selectionRate: (selectedCount / selectedEvaluations.length) * 100,
+                evaluations: selectedEvaluations // Mantieni solo le valutazioni delle persone selezionate
+            };
         });
     }
 
